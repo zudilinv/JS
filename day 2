@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input value="Hello!">
+    <h1>Pikup</h1>
+    <ul>
+        <li>Hair</li>
+        <li>Dress</li>
+        <li>Joke</li>
+        <li>Go to gerl</li>
+        <li>Say Hello!</li>
+        <li>Tell the joke</li>
+        <li>Take a phone number</li>
+    </ul>
+
+    <script>
+    
+    window.alert('number 1');
+    window.alert('number 2');
+    window.alert('number 3');
+    window.alert('number 4');
+    window.alert('number 5');
+    window.alert('number 6');
+    window.alert('number 7');
+    window.alert('number 8');
+    window.alert('number 9');
+    window.alert('number 10');
+
+    </script>
+
+</body>
+</html>
