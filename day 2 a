@@ -1,0 +1,31 @@
+
+const arr = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9],
+    [[10, 11, 12], 13, 14]
+  ];
+  
+  const subarray = arr[3]; //[[10, 11, 12], 13, 14]
+  const nestedSubarray = arr[3][0]; //[10, 11, 12]
+  const element = arr[3][0][1]; //11.
+
+const myArray = [["John", 23], ["cat", 2]];
+const removedFromMyArray = myArray.pop(); //["cat", 2]
+
+const myArray = [["John", 23], ["dog", 3]];
+const removedFromMyArray = myArray.shift(); //["dog", 3]
+
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+myArray.unshift(["Paul", 35]); //myArray = [["Paul", 35], ["dog", 3]]
+
+function functionWithArgs(arg1, arg2) {
+    console.log(arg1 + arg2);
+  }
+  functionWithArgs(2, 4); //6
+
+function timesFive(arg){
+    return arg * 5;
+  }
+timesFive(5); //25
