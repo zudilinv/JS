@@ -1,0 +1,24 @@
+function chainToSwitch(val) {
+  let answer = "";
+  let arr = ["bob", 42, 1, 99, 7];
+switch (val) {
+  case arr[0]:
+    answer = "Marley";
+    break;
+  case arr[1]:
+    answer = "The Answer";
+    break;
+  case arr[2]:
+    answer = "There is no #1";
+    break;
+  case arr[3]:
+    answer = "Missed me by this much!";
+    break;
+  case arr[4]:
+    answer = "Ate Nine";
+    break;
+  default:
+    answer = "";
+}
+  return answer;
+}
