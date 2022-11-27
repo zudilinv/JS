@@ -13,3 +13,14 @@ function fun2() {
   }
   console.log(output); //myGlobal: 10 oopsGlobal: 5
 }
+
+////////////////////////////////////////////////
+
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+const outerWear = 'sweater';
+  return outerWear;
+}
+
+myOutfit(); //'sweater'
