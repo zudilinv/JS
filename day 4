@@ -1,0 +1,69 @@
+  const myDog = {   //Object
+    'name': "Fox",
+    'legs': 4,
+    'tails': 1,
+    'friends': ["men", "sun"]
+    };
+///////////////////////////////////////
+    const testObj = { //"точечный"способ доступа к свойствам объекта 
+        "hat": "ballcap",
+        "shirt": "jersey",
+        "shoes": "cleats"
+      };
+      const hatValue = testObj.hat;      
+      const shirtValue = testObj.shirt;   
+/////////////////////////////////////////////////////
+      const testObj = { //способ доступа через-[]
+        "an entree": "hamburger",
+        "my side": "veggies",
+        "the drink": "water"
+      };
+      const entreeValue = testObj["an entree"];
+      const drinkValue = testObj["the drink"];  
+/////////////////////////////////////////////////
+      const testObj = {
+        12: "Namath",
+        16: "Montana",
+        19: "Unitas"
+      };
+      const playerNumber = 16;
+      const player = testObj[playerNumber]; //"Montana"
+/////////////////////////////////////////////////////
+      const myDog = {  //смена имени 2 способа
+        "name": "Coder",
+        "legs": 4,
+        "tails": 1,
+        "friends": ["freeCodeCamp Campers"]
+      };
+      myDog.name = "Happy Coder";// Первый
+      myDog["name"] = "Happy Coder";// Второй
+///////////////////////////////////////////////
+      const myDog = { //Добавим новые свойства 2 способа
+        "name": "Happy Coder",
+        "legs": 4,
+        "tails": 1,
+        "friends": ["freeCodeCamp Campers"]
+      };
+      myDog.bark = "woof";
+      myDog["bark"] = "woof";
+//////////////////////////////////////////
+      const myDog = { //Удаление 2 Способа
+        "name": "Happy Coder",
+        "legs": 4,
+        "tails": 1,
+        "friends": ["freeCodeCamp Campers"],
+        "bark": "woof"
+      };
+      delete myDog.tails;
+      delete myDog["tails"];
+/////////////////////////////////////////////
+      function phoneticLookup(val) { //Для поиска
+        let result = "";
+        const lookup = {
+          "alpha": "Adams",
+          "bravo": "Boston",
+          "charlie": "Chicago"
+        };
+        result = lookup[val];
+        return result;
+      }
